@@ -1,1 +1,1 @@
-# niuro
+# artificial neural network
