@@ -1,2 +1,4 @@
 {
+	"training_sets_inputs": [[0, 0, 1], [1, 1, 1], [0, 1, 1]],
+	"training_sets_outputs": [[0, 1, 1, 0]]
 }
