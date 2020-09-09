@@ -1,7 +1,11 @@
+import json
 from numpy import exp, array, random, dot
 
-training_sets_inputs = array([[0, 0, 1], [1, 1, 1], [0, 1, 1]])
-training_sets_outputs = array([[0, 1, 1, 0]]).T
+with open('nr_cfgs.json', 'r') as reader:
+	cfg = reader.read()
+	
+training_sets_inputs = array(json.loads(cfg)['training_sets_inputs'])
+training_sets_outputs = array(json.loads(cfg)['training_sets_outputs']).T
 
 random.seed(1)
 
