@@ -1,1 +1,1 @@
-# artificial neural network
+# neural networks, artificial intelligence
